@@ -1,0 +1,5 @@
+#语言模型<br\>
+是一种对token(令牌序列)的概率分布，它接受一个序列并返回概率来评估其好坏(概率越高说明越好)。<br\>
+语言模型做生成任务：<br\>
+#自回归语言模型<br\>
+例子：P(the,mouse,ate,the,cheese)=P(the)*P(mouse|the)*P(ate|the,mouse)*P(the|the,mouse,ate)*P(cheese|the,mouse,ate,the)
